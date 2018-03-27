@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taskapp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+
+    <%= yield %>
+    <%= image_tag "orangutan2.png" %>
+    <%= link_to "Home","/"%>
+    <a href="http://www.irasutoya.com/2013/07/blog-post_2507.html">画像もと</a>
+
+  </body>
+</html>
